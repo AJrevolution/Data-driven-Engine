@@ -6,6 +6,10 @@ Code samples for the sake of portfolio, not entire project with any dlls or libs
 elements is a lua file that handles the level creator for the project, i attatched documentation to show how to use it,
 and explains how to create your own custom levels that you can browse over.
 
+PhysicsManager.cpp -> physics subsystem
+Renderer.cpp -> renderer subsystem
+gameManager -> handles game objects setup, assigns events to event manager,  
+
 main file is of course the main.cpp, which contains the main game loop to execute each subsystem. 
 
 I have not included the audio subsystem, nothing special, simply played the desired audio clip when an event required it to.
