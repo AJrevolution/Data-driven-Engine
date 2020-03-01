@@ -7,8 +7,12 @@ elements is a lua file that handles the level creator for the project, i attatch
 and explains how to create your own custom levels that you can browse over.
 
 PhysicsManager.cpp -> physics subsystem
+
 Renderer.cpp -> renderer subsystem
-gameManager -> handles game objects setup, assigns events to event manager,  
+
+GameManager -> handles game objects setup, assigns events to event manager,  
+
+NetworkManager ->handles networking events when the game is in networking mode, sends packets, receives packets, sends level data to other client
 
 main file is of course the main.cpp, which contains the main game loop to execute each subsystem. 
 
